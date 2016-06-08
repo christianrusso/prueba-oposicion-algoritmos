@@ -1,0 +1,132 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage[T1]{fontenc} 
+\usepackage{calligra} 
+\usetikzlibrary{arrows,automata}
+
+
+
+\input{Helpers.tex}
+%\usetheme{Berkeley}
+% \usetheme{JuanLesPins}
+% \usetheme{bars}
+% \usetheme{split}
+  \usetheme[compress]{Ilmenau}
+% \mode<presentation>
+%\mode<handout>%{\beamertemplatesolidbackgroundcolor{black!5}}
+% \mode<article>{\usepackage{fullpage}}
+% \usepackage{pgfpages}
+%\pgfpagelayout{resize}[a4paper,border shrink=5mm,landscape]
+
+\include{epsfig}
+\title{Matrices  definidas positivas}
+
+\author{Christian Sebasti\'an Russo}
+\date{16 de Septiembre de 2015}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\tableofcontents}
+
+\section{Contexto}
+\subsection{?`De d\'onde venimos?}
+
+\frame{
+\frametitle{?`De d\'onde venimos?} 
+\begin{itemize}
+\item Operaciones con matrices (suma, resta, permutaciones, etc.)
+\item Eliminaci\'on Gaussiana
+\item Factorizaci\'on LU
+\item Te\'orica de Matrices definidas positivas
+\item Te\'orica de Factorizaci\'on de Cholesky
+\end{itemize}
+}
+
+
+
+
+\subsection{?`A d\'onde vamos?}
+
+\frame{
+\frametitle{Objetivos} 
+\begin{itemize}
+\item Dudas comunes
+\item Primeros ejercicios Matrices definidas positivas
+\item Ponernos cancheros con los ejercicios
+\end{itemize}
+}
+
+
+
+
+
+
+
+\section{Matrices definidas positivas}
+\subsection{Repaso}
+
+\frame{
+\frametitle{Repaso }
+
+\textbf{Matriz Triangular Superior e Inferior:} 
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{triangulares.jpg}
+\end{center}
+
+\textbf{Proposici\'on:} Sea A una matriz triangular \[ det(L) = \prod_{i = 1}^n l_{ii}  \]
+\textbf{Propiedad:} 
+Sea v $\in$ $\mathbb{R}^{nx1}$. Entonces $v^t \cdot v = $ $\left\| v \right\| ^2$
+
+\textbf{Propiedad:} 
+Sea A una matriz inversible. Entonces la ecuaci\'on $Ax = 0$ tiene como \'unica soluci\'on x = 0
+}
+
+
+\subsection{Conceptos}
+
+\frame{
+
+\begin{center}
+\includegraphics[width=1\textwidth]{isabelfinal.jpg}
+\end{center}
+\frametitle{Matrices definidas positivas}
+\begin{block}{Definici\'on }
+Sea A $\in$ $\mathbb{R}^{nxn}$. A es \textbf{definida positiva} sii 
+\begin{center}
+ $x^t  A x > 0$ para todo vector x $\neq$ 0 de dimensi\'on n
+\end{center}
+\end{block}
+
+}
+
+
+\include{ejercicioc}
+ 
+\section{Bibliografía}
+\frame{
+\frametitle{Bibliografía}
+\begin{thebibliography}{10}
+	\bibitem{}
+		An\'alisis num\'erico, International Thomson Editors, 1998. Cap\'itulo 6 
+	\newblock \emph{R. Burden y J.D.Faires}
+\end{thebibliography}
+}
+
+
+\frame{
+\frametitle{Fin}
+\begin{center}
+\huge{\textbf{?`Preguntas?}}
+
+\includegraphics[width=0.5\textwidth]{preguntas.png}
+
+\end{center}
+}
+
+
+\end{document}

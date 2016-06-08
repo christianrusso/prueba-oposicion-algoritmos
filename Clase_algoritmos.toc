@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Contexto}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{?`De d\'onde venimos?}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{?`A d\'onde vamos?}{4}{0}{1}
+\beamer@sectionintoc {2}{Matrices definidas positivas}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Repaso}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Conceptos}{6}{0}{2}
+\beamer@sectionintoc {3}{Ejercicio}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Enunciado}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Camino a seguir}{8}{0}{3}
+\beamer@subsectionintoc {3}{3}{Soluci\IeC {\'o}n}{12}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\IeC {\'\i }a}{37}{0}{4}
